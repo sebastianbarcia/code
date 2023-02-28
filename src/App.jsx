@@ -1,12 +1,7 @@
 import "./App.css";
 import { ReactEditor, HtmlCssJs } from "./pages/indexPages";
 
-import {
-  BrowserRouter,
-  Link,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
