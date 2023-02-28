@@ -1,0 +1,18 @@
+.editorJsStyles{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    .toolsEditorJs{
+        width: 20%;
+        padding-top: 1px;
+        color: white;
+        padding-left: 28px;
+        background-color: #252526;
+        display: flex;
+        align-items: center;
+     p{
+        margin: 10px 
+     }  
+    }
+}

@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 
 import { faJs, faCss3Alt, faHtml5 } from "@fortawesome/free-brands-svg-icons";
 
-//components
 import { EditorJS, Iframe, ButtonContainer } from "../../components/index";
+
+import "./HtmlCssJs.scss";
 
 const EditJs = () => {
   const [createHtml, setCreateHtml] = useState(
@@ -73,20 +74,7 @@ const EditJs = () => {
   }
 
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "flex-start",
-        justifyContent: "center",
-        gap: 15,
-        paddingLeft: 100,
-        paddingRight: 100,
-        paddingTop: 20,
-        paddingBottom: 20,
-        backgroundColor: "black",
-        height: "100vh",
-      }}
-    >
+    <div className="htmlCssJsStyles">
       {/*Buttons codigo + guardado*/}
       <ButtonContainer
         buttonsLanguages={buttonsLanguages}
@@ -94,9 +82,11 @@ const EditJs = () => {
         saveCode={saveCode}
       />
       {/*Editor*/}
-      <EditorJS tools={tools} languageShow={languageShow} update={update} />
-      {/*Renderizado de editor*/}
-      <Iframe createHtml={createHtml} />
+      <div className="editorRender">
+        <EditorJS tools={tools} languageShow={languageShow} update={update} />
+        {/*Renderizado de editor*/}
+        <Iframe createHtml={createHtml} />
+      </div>
     </div>
   );
 };

@@ -1,15 +1,9 @@
 import React from "react";
-
+import './iframe.scss'
 const Iframe = ({ createHtml }) => {
   return (
     <iframe
-      style={{
-        backgroundColor: "white",
-        width: "100%",
-        height: "90vh",
-        border: "none",
-        marginTop: 40,
-      }}
+    className="iframeEditorJs"
       srcDoc={createHtml}
     ></iframe>
   );

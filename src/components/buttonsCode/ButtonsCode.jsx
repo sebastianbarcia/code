@@ -1,18 +1,11 @@
 import React from "react";
+import '../buttonsCode/buttonsCode.scss'
 
 const ButtonsCode = ({ buttonsLanguages, languageChanges }) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        paddingLeft: 2,
-        paddingRight: 2,
-        gap: 10,
-      }}
-    >
+    <div className="buttonsCodeStyles" >
       {buttonsLanguages.map((item) => {
-        return <button onClick={languageChanges}>{item.title}</button>;
+        return <button onClick={languageChanges} key={item.id}>{item.title}</button>;
       })}
     </div>
   );
