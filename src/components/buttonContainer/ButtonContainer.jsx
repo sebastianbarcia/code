@@ -1,4 +1,5 @@
 import React from "react";
+import Buttons from "../buttons/Buttons";
 import ButtonsCode from "../buttonsCode/buttonsCode";
 import "./buttonContainer.scss";
 
@@ -10,7 +11,7 @@ const ButtonContainer = ({ buttonsLanguages, languageChanges, saveCode }) => {
         buttonsLanguages={buttonsLanguages}
         languageChanges={languageChanges}
       />
-      <button onClick={saveCode}>Guardar</button>
+      <Buttons click={saveCode} text={"Guardar"}></Buttons>
     </div>
   );
 };
