@@ -3,16 +3,23 @@
     flex-direction: column;
     gap: 5px;
     width: 50%;
-    .toolsEditorJs{
-        width: 20%;
-        padding-top: 1px;
-        color: white;
-        padding-left: 28px;
-        background-color: #252526;
-        display: flex;
-        align-items: center;
-     p{
-        margin: 10px 
-     }  
+    .editorStyle{
+        height: 55rem;
     }
+}
+
+@media (max-width: 1500px) {
+    .editorJsStyles{
+    .editorStyle{
+        height: 52rem;
+    }
+}
+}
+
+@media (max-width: 1000px) {
+    .editorJsStyles{
+    .editorStyle{
+        height: 64rem;
+    }
+}
 }

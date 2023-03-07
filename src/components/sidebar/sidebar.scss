@@ -1,0 +1,55 @@
+.sidebar{
+    width:70px ;
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    -webkit-transition: width 0.4s;
+    z-index: 99;
+   border-right: 0.00001rem solid rgb(63, 63, 63);
+    .sidebarPadding{
+        margin-top: 6rem;
+    }
+    .containerGeneral{
+        color: white;
+        text-decoration: none;
+        width: 230px;
+        height: 40px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        display: flex;
+        align-items: center;
+        .logoLanguage{
+            margin-left: 1.2rem;
+            margin-right: 1.2rem;
+        }
+        .textSidebar{
+            width: 180px;
+            display: none;
+            padding-left: .4rem;  
+        }
+        .fa-2x{
+            width: 32px;
+        }
+    }
+}
+.sidebar:hover{
+    width: 230px;
+    .textSidebar{
+        display: unset;
+    }
+}
+
+ .containerGeneral:hover{
+        background-color: rgb(35, 35, 35);
+     .react{
+            color: #61DBFB;   
+     }
+     .webDev{
+         color:#F0DB4F
+     }
+
+ }
+

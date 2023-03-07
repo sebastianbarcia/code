@@ -1,0 +1,20 @@
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    .starting{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .user{
+        text-align: center;
+    }
+    
+
+}

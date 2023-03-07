@@ -1,13 +1,15 @@
-.htmlCssJsStyles{
+
+.reactEditorContainer{
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 15px;
     background-color: black;
     height: 100vh;
-    .editorRender{
+    .buttonReactEditorContainer{
         display: flex;
-        width: 100rem;
-        margin-top: 3rem;
+        justify-content: flex-start;
+        align-items: end;
+        margin: 3rem 2rem 0rem 2rem;
     }
 }

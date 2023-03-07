@@ -1,0 +1,20 @@
+.editorCode {
+  flex-direction: column;
+  display: flex;
+  width: 100rem;
+  height: 95vh;
+  margin-top: 3rem;
+  .reactLive {
+    display: flex;
+    height: 90%;
+    .ideReact {
+      background-color: #1a1a1a;
+      width: 50%;
+      overflow: hidden
+    }
+    .reactPreview {
+        @extend .ideReact;
+        background-color: white;
+    }
+  }
+}

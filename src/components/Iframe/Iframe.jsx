@@ -1,12 +1,7 @@
 import React from "react";
-import './iframe.scss'
+import "./iframe.scss";
 const Iframe = ({ createHtml }) => {
-  return (
-    <iframe
-    className="iframeEditorJs"
-      srcDoc={createHtml}
-    ></iframe>
-  );
+  return <iframe className="iframeEditorJs" srcDoc={createHtml}></iframe>;
 };
 
 export default Iframe;
