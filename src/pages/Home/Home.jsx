@@ -1,11 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import Buttons from "../../components/buttons/Buttons";
-import './home.scss'
+import "./home.scss";
 
 const Home = () => {
   return (
     <div className="containerHome">
       <div className="starting">
+        <div> 
+        </div>
         <h1>
           Este es un sitio web para que codees en reactJS y en HTML - CSS y
           Javascript

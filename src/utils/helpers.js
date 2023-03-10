@@ -1,5 +1,5 @@
 import { faJs, faReact } from "@fortawesome/free-brands-svg-icons";
-
+import {faCode} from '@fortawesome/free-solid-svg-icons'
 const code = `
   function LikeButton(){
     const [likes, increaseLikes] = useState(1);
@@ -17,7 +17,7 @@ const code = `
 const sidebarItems = [
   { id: 1, title: "reactJS", icon: faReact , name:"react" },
   { id: 2, title: "HTML - CSS - JS", icon: faJs , name:"webDev"},
-  { id: 3, title: "HOME", icon: faJs , name:""}
+  { id: 3, title: "HOME", icon: faCode , name:""}
 ];
 
 

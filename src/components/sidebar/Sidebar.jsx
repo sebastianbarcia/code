@@ -8,21 +8,29 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebarPadding">
-      {sidebarItems.map((itemsLinks) => {
-        return (
-          <Link to={`/${itemsLinks.name}`} className="containerGeneral" key={itemsLinks.id}>
-           
-            <div className={`${itemsLinks.name} logoLanguage`}>
-              <FontAwesomeIcon icon={itemsLinks.icon} className={"fa-2x"} />
-            </div>
-            <div className="textSidebar">
-              <p>{itemsLinks.title}</p>
-            </div>
-          
-          </Link>
-         
-        );
-      })}
+        {sidebarItems.map((itemsLinks) => {
+          return (
+            <>
+              {itemsLinks.id !== 3 && (
+                <Link
+                  to={`/${itemsLinks.name}`}
+                  className="containerGeneral" 
+                  key={itemsLinks.id}
+                >
+                  <div className={`${itemsLinks.name} logoLanguage`}>
+                    <FontAwesomeIcon
+                      icon={itemsLinks.icon}
+                      className={"fa-2x"}
+                    />
+                  </div>
+                  <div className="textSidebar">
+                    <p>{itemsLinks.title}</p>
+                  </div>
+                </Link>
+              )}
+            </>
+          );
+        })}
       </div>
     </div>
   );

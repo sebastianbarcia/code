@@ -1,0 +1,18 @@
+.containerNavBar{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 6.4rem;
+    cursor: pointer;
+    a{
+        color: white;
+    }
+    .containerTheme{
+        display: flex;
+        gap: 2rem;
+        color: white;
+    }
+
+}
