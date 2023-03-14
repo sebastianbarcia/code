@@ -18,8 +18,8 @@ const EditorJS = ({ tools, languageShow, update }) => {
                   onChange={(e) => update(item, e)}
                   defaultValue={item.value}
                   theme="vs-dark"
-                  // height={"55rem"}
                   className="editorStyle"
+                  id="editorStyle"
                 />
               </div>
             );

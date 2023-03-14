@@ -3,17 +3,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 95vh;
     background-color: black;
     color: white;
     text-align: center;
+    padding-inline: 8rem;
     .starting{
         display: flex;
         flex-direction: column;
-    
+        
+        .iconsHome{
+            display: flex;
+            justify-content: space-around;
+            padding-inline: 30%;
+            padding-bottom: 5%;
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+                color: white;
+                svg{
+                    height: auto;
+                    width: 50px;
+                }
+
+            }
+        }
     }
     .user{
         text-align: center;
+        padding-top: 5%;
     }
     
 

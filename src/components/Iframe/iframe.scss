@@ -1,18 +1,6 @@
 .iframeEditorJs{
     background-color: white;
     width: 50%;
-    height: 55rem;
     border:none;
     margin-top: 40px;
-}
-@media (max-width: 1500px) {
-    .iframeEditorJs{
-        height: 52rem;
-    }
-}
-
-@media (max-width: 1000px) {
-    .iframeEditorJs{
-        height: 64rem;
-    }
 }

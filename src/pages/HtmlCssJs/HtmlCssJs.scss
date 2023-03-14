@@ -4,10 +4,12 @@
     align-items: flex-start;
     gap: 15px;
     background-color: black;
-    height: 100vh;
+    height: 95vh;
+    padding-right: 2rem;
+    padding-left: 5rem;
     .editorRender{
         display: flex;
         width: 100rem;
-        margin-top: 3rem;
+        margin-top: 3%;
     }
 }

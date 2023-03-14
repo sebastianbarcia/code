@@ -1,3 +1,4 @@
+import { faCss3, faCss3Alt, faHtml5, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -8,7 +9,15 @@ const Home = () => {
   return (
     <div className="containerHome">
       <div className="starting">
-        <div> 
+        <div className="iconsHome"> 
+          <Link to={"/react"}>
+            <FontAwesomeIcon icon={faReact} className="fa-2xl"/>
+          </Link>
+          <Link to={"/webDev"}>
+            <FontAwesomeIcon icon={faHtml5} className="fa-2xl"/>
+            <FontAwesomeIcon icon={faCss3Alt} className="fa-2xl"/>
+            <FontAwesomeIcon icon={faJs} className="fa-2xl"/>
+          </Link>
         </div>
         <h1>
           Este es un sitio web para que codees en reactJS y en HTML - CSS y

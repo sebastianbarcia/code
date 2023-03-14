@@ -1,8 +1,8 @@
 .sidebar{
     top:0px;
-    width:70px ;
+    width: 5rem ;
     background-color: black;
-    height: 105vh;
+    height: 100%;
     position: absolute;
     overflow: hidden;
     -webkit-transition: width 0.4s;
@@ -14,7 +14,7 @@
     .containerGeneral{
         color: white;
         text-decoration: none;
-        width: 230px;
+        width: 14rem;
         height: 40px;
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -22,24 +22,24 @@
         margin-bottom: .5rem;
         display: flex;
         align-items: center;
-        
+
         .logoLanguage{
-            margin-left: 1.2rem;
-            margin-right: 1.2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
         }
         .textSidebar{
-            width: 180px;
+            
             display: none;
             padding-left: .4rem;  
         }
         .fa-2x{
-            width: 32px;
+            width: 2rem;
         }
     }
 }
 
 .sidebar:hover{
-    width: 230px;
+    width: 14rem;
     .textSidebar{
         display: unset;
     }

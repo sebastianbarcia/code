@@ -16,11 +16,11 @@ const NavBar = () => {
   return (
     <div className='containerNavBar'>
         <Link to={"/"}>
-        <FontAwesomeIcon icon={faCode}/>
+        <FontAwesomeIcon  className="fa-xl" icon={faCode}/>
         </Link>
         <div className='containerTheme'>
-            <FontAwesomeIcon onClick={handleTheme} icon={theme ? faSun : faMoon}/> 
-            <FontAwesomeIcon icon={faUser}  />
+            <FontAwesomeIcon  className="fa-xl" onClick={handleTheme} icon={theme ? faSun : faMoon}/> 
+            <FontAwesomeIcon icon={faUser}  className="fa-xl" />
         </div>
     </div>
   )
