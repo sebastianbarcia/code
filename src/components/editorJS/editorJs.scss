@@ -3,8 +3,11 @@
     flex-direction: column;
     gap: 5px;
     width: 50%;
-    .editorStyle{
-        height: 43rem;
+    >div{
+        height: 100%;
     }
-    
+    #editorStyle{
+        height: 100%;
+    }
 }
+

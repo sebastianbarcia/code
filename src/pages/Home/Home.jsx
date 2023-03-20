@@ -20,12 +20,12 @@ const Home = () => {
           </Link>
         </div>
         <h1>
-          Este es un sitio web para que codees en reactJS y en HTML - CSS y
+          Este es un sitio web para que pruebes código de reactJS y de HTML - CSS y
           Javascript
         </h1>
         <p>
           No es solo para ordenadores, por que siempre y cuando tengas conexión
-          a internet vas a poder codear sea con el movil, una tableta o el
+          a internet vas a poder realizar tu codigo sea con el movil, una tableta o el
           ordenador!
         </p>
         <p>Prueba tu codigo!</p>
