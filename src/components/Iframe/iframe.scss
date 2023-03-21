@@ -5,3 +5,16 @@
     margin-top: 40px;
     height: 80vh;
 }
+@media only screen and (max-width: 767px){
+   .iframeEditorJs{
+    height: 80%;
+   }
+}
+
+@media only screen and (max-width: 546px){
+    .iframeEditorJs{
+        width: 100%;
+        margin-bottom: 0.3rem;
+        margin-top: 4%;
+    }
+}

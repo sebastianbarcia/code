@@ -14,3 +14,22 @@
         height: 80vh;
     }
 }
+
+@media only screen and (max-width: 767px){
+    .htmlCssJsStyles{
+        flex-direction: column;
+        .editorRender{
+            padding-left: 1rem;
+            width: 100%;
+            
+        }
+    }
+}
+
+@media only screen and (max-width: 546px){
+    .htmlCssJsStyles{
+        .editorRender{
+            flex-direction: column;
+        }
+    }
+}

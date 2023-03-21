@@ -5,3 +5,13 @@
     margin: 6rem 2rem 0rem 2rem;
     height: 82%;
 }
+
+@media only screen and (max-width: 767px){
+    .buttonContainerStyles{
+       flex-direction: row;
+       flex-wrap: wrap;
+       height: fit-content;
+       margin: 2rem 0rem 0rem 1rem;
+    }
+}
+

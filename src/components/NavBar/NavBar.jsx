@@ -4,6 +4,8 @@ import { faCode, faMoon , faSun, faUser } from '@fortawesome/free-solid-svg-icon
 import React, { useState } from 'react'
 import './NavBar.scss'
 import { Link } from 'react-router-dom'
+import Buttons from '../buttons/Buttons'
+import ButtonContainer from '../buttonContainer/ButtonContainer'
 
 
 const NavBar = () => {

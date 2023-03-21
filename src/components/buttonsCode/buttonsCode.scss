@@ -1,4 +1,14 @@
 .buttonsCodeStyles{
     display: flex;
     flex-direction: column;
+    button{
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .buttonsCodeStyles{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }

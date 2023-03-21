@@ -6,17 +6,19 @@
     justify-content: space-between;
     padding-left: 7rem;
     padding-right: 2rem;
-    cursor: pointer;
     a{
         color: white;
     }
     .containerTheme{
         display: flex;
+        align-items: center;
         gap: 2rem;
         color: white;
         svg{
             width: 2rem;
+            cursor: pointer;
         }
     }
 
 }
+
